@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MoneyTracker", "MoneyTracker\MoneyTracker.shproj", "{5C6B079F-77D9-44E3-AA19-153DD2C69AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTracker.iOS", "MoneyTracker.iOS\MoneyTracker.iOS.csproj", "{CFD271A0-98A0-4078-A20E-F16A684EAFCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTracker.Droid", "MoneyTracker.Droid\MoneyTracker.Droid.csproj", "{8A4F05F8-A959-46BF-97CE-64929C1D1736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Release|iPhone.Build.0 = Release|Any CPU
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8A4F05F8-A959-46BF-97CE-64929C1D1736}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Release|iPhone.Build.0 = Release|iPhone
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CFD271A0-98A0-4078-A20E-F16A684EAFCB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
